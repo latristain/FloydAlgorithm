@@ -29,7 +29,7 @@ This project consists of 4 different modules.
 4. Performance.py --- This module compares the performance of the recursive vs. imperative model.
 
 ### Credits
-The recursive model is an adaptation of the following web page. https://favtutor.com/blogs/floyd-warshall-algorithm
+The recursive model is an adaptation of the code of following web page. https://favtutor.com/blogs/floyd-warshall-algorithm
 The imperative model that was used was a collaboration of Dr Brett Dury of the University of Liverpool.
 
 
