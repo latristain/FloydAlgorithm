@@ -8,7 +8,7 @@
 
 ### General Info
 
-Se construyó el Algoritmo de Floyd de manera recursiva a través de bucles anidados. Este código se construyó de tal forma que fuera interactivo es decir, el computador cuestionara al usuario sobre el número de vectores y distancia entre estos para posteriormente tras una serie de cálculos ofrecer la solución óptima. Existe un módulo que a traves del modulo UnitTest sea capaz de testear los resultados del código vs la solución óptima, asi como otro modulo que compara los resultados de un modelo que utiliza la version recursiva vs otro que utiliza el modulo itertools llamado para este caso version imperativa.
+The Floyd Algorithm was built recursively through nested loops in such a way that it was interactive (RecursiveCode.py), that is, the computer would question the user about the number of vectors and the distance between them to later offer an optimal solution after a series of calculations. There were added two modules one that can verify the results of the code vs the optimal solution (UnitTest.py), as well as another module (Performance.py) that compares the performance of the recursive model vs. the results of the imperative model (Imperative.py). It is worth mentioning that the imperative model makes use of the itertools module to solve the Floyd algorithm.
 
 ### Technologies
 
@@ -18,15 +18,19 @@ A list of technologies used within the project:
 
 
 ### Software
-Para correr este proyecto es recomendable que se tenga instalado las herramientas especificadas en el punto 2 asi mismo, se instalen para python los modulos, numpy, itertools, sys, timeit, unittest.
+To run this project, it is recommended that the tools specified in section 2 be installed, as well as the modules numpy, itertools, sys, timeit and unittest.
 
 ### Project
+This project consists of 4 different modules.
 
-Este proyecto consta de 4 diferentes modulos recursive_code.py . Este modulo corre  el algoritmo de floyd de manera recursiva mediante es decir mediante bucles anidados. El modulo imperative.py el cual corre el algoritmo de Floyd mediante la herramienta itertools. El modulo unittest.py el cual valida los resultados del modelo recursivo vs la solucion optima y el modulo performance.py el cual compara el desempeno del modelo recursivo vs el imperativo.
+1. RecursiveCode.py -- This module solves Floyd's algorithm recursively using nested loops.
+2. Imperative.py el --- This module solves Floyd's algorithm using the itertools tool.
+3. UnitTest.py --- This module validates the results of the recursive model against the optimal solution.
+4. Performance.py --- This module compares the performance of the recursive vs. imperative model.
 
 ### Credits
-El modelo recursivo es una adaptacion de la siguiente pagina web. https://favtutor.com/blogs/floyd-warshall-algorithm
-El modelo imperativo se utilizo fue una colaboracion de Brett Dury de la Universidad de Liverpool
+The recursive model is an adaptation of the following web page. https://favtutor.com/blogs/floyd-warshall-algorithm
+The imperative model that was used was a collaboration of Dr Brett Dury of the University of Liverpool.
 
 
 
