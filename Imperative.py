@@ -1,3 +1,5 @@
+#This code was shared by Dr Brett Dury of the University of Liverpool.
+
 import sys 
 import itertools
 
