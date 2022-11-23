@@ -1,5 +1,6 @@
-#In order to run adequately the Performance in the Imperative.py code you have to change the graph that is to be compared
+#### The performance of the imperative function is measured against the performance of the recursive function to resolve the Floyd algorithm
 
+#In order to run adequately the Performance in the Imperative.py code you have to change the graph that is to be compared
 #Import Modules
 import timeit
 
