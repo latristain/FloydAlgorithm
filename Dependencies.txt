@@ -2,3 +2,4 @@ numpy     == 1.23.4
 sys       == 3.11.0
 itertools == 9.0.0
 unittest  == 3.7
+visualstudio == 1.73.1
