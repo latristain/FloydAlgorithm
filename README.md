@@ -8,7 +8,7 @@
 
 ### General Info
 
-The Floyd Algorithm was built recursively through nested loops in such a way that it was interactive (RecursiveCode.py), that is, the computer would question the user about the number of vectors and the distance between them to later offer an optimal solution after a series of calculations. There were added two modules one that can verify the results of the code vs the optimal solution (UnitTest.py), as well as another module (Performance.py) that compares the performance of the recursive model vs. the results of the imperative model (Imperative.py). It is worth mentioning that the imperative model makes use of the itertools module to solve the Floyd algorithm.
+The Floyd's algorithm was developed recursively (RecursiveCode.py) through nested loops, adding user interactive characteristics, (the computer will question the user the number of vectors and the distance between them to later show the optimal solution in the terminal). Two programs were additionally developed, one to validate the expected results, and the other one to measure the performance of Floyd's Algorithm of the Recursive Code against Floyd's Algorithm of the Imperative code (Imperative.py).
 
 ### Technologies
 
